@@ -19,5 +19,5 @@ script:
   - docker tag simple-express mvrkrishna/simple-express:latest
 
 after_success:
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - echo "Ishaan@123" | docker login -u "mvrkrishna" --password-stdin
   - docker push mvrkrishna/simple-express
